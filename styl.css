@@ -37,7 +37,7 @@ body {
   .odkazy li:last-child {
     border-right: none;
   }
- .odkazy li a {
+   .odkazy  a {
     color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
@@ -47,8 +47,7 @@ body {
     font-weight: bold;
   
   }
- 
-   a:hover {
+  a:hover {
     text-decoration: underline rgb(0, 0, 0);
   }
   .info {
