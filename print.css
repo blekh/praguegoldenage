@@ -1,0 +1,18 @@
+@media print{
+    .obrazky {
+    display: none;
+    }
+    .odkazy {
+    display: none;
+    }
+    .kontejner {
+        display: none;
+    }
+    h1 {
+        font-size:30px;
+    }
+    p {
+        font-size: 20px;
+    }
+    
+}
