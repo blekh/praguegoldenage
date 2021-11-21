@@ -86,18 +86,22 @@ body {
     box-sizing: border-box;
     overflow: hidden;
     padding: 0px 0px;
+    justify-content: center;
+    gap: 15px;
   }
   .foto-pamatky {
     box-sizing: border-box;
     height: 350px;
     padding: 0px 0px;
     flex-wrap: wrap;
+    
   }
   
   .foto-pamatky img {
     display: block;
-    height: 99%;
-    border-top: 2px solid black;
+    height: 100%;
+   
+
   }
   .obrazky-hotelu img {
     width: 450px;
