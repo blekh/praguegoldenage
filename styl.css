@@ -148,6 +148,11 @@ body {
   width: 420px;
   box-shadow: 6px 10px 26px 5px rgb(116,116,116,0.36);
 }
+span {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
 .nadpis {
   background: linear-gradient(81deg, rgba(126,160,145,1) 0%, rgba(225,190,183,0.6141807064622724) 100%); 
   width: 100%;
