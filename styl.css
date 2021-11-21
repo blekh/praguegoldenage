@@ -50,6 +50,9 @@ body {
   a:hover {
     text-decoration: underline rgb(0, 0, 0);
   }
+    a.active {
+      background-color: violet;
+    }
   .info {
     display:block;
     color: black;
@@ -93,7 +96,7 @@ body {
   
   .foto-pamatky img {
     display: block;
-    height: 100%;
+    height: 99%;
     border-top: 2px solid black;
   }
   .obrazky-hotelu img {
@@ -188,14 +191,15 @@ th, td {
    justify-content: center;
  }
   form {
-    padding: 30px;
     border-radius: 4px;
     box-shadow:  6px 10px 26px 5px rgb(116,116,116,0.36);
     width: 700px;
     margin-top: 25px;
     background-color: rgba(146, 139, 139, 0.123);
+    
   }
   label {
+    padding: 15px;
     text-align: left;
     font-weight: bold;
     font-size: 18px;
@@ -209,6 +213,7 @@ th, td {
     height: 25px;
     display:flex;
     font-size: 15px;
+    padding-left: 5px;
   
   }
    
@@ -233,18 +238,26 @@ th, td {
   input:focus {
     background-color: #dd474928;
   }
+
+  .potvrdit {
+    display: flex;
+    box-sizing: border-box;
+    width: 700px;
+    padding-right: -200px;
+  }
 input[type="submit"] {
   background-color: #dd4749;
-  cursor: pointer;
+  cursor: pointer ;
   font-size: 35px;
   padding-top: 35px ;
   padding-bottom: 70px;
-  text-align: center;
-  display: inline;
+  display: flex;
+  justify-content: center;
   width: 100%;
   font-family:'Spartan', sans-serif;
   font-weight: bold;
   border: none;
+  
 }
   
 
@@ -286,3 +299,28 @@ footer {
   .fa-hotel:hover {
     color: #833ab4;
   }
+
+ .hodnoc {
+   padding: 25px;
+   text-align: center;
+   font-weight: bold;
+   display: block;
+   line-height: 1.6;
+   
+   
+ }
+  .hodnoc h2 {
+   font-style: italic;
+   color: red;
+   font-size: 30px;
+   padding-top: 10px;
+  }
+ 
+  .hodnoceni_nadpis {
+    font-size: 35px;
+    text-align: center;
+    margin: 25px;
+  }
+  
+
+  
